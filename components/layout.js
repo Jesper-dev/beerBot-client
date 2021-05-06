@@ -6,7 +6,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Head>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta name="author" content="Jesper Pettersson" />
         <meta name="keywords" content="Express, NextJS, beerBot, discord bot" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />

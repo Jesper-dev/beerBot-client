@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Work+Sans&display=swap");
+
+.container {
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Work Sans", sans-serif;
+
+  > h1 {
+    font-size: 3rem;
+    text-decoration: underline;
+  }
+
+  .infoTextContainer {
+    width: 30%;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 1.2rem;
+  }
+
+  .beerBotText {
+    font-size: 1.3rem;
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+  }
+
+  .cheersText {
+    font-size: 1.3rem;
+    color: rgb(255, 0, 0);
+    animation: popup 2s;
+    transition: all 2s;
+  }
+
+  .docsTag {
+    font-size: 1.3rem;
+    color: rgb(0, 255, 0);
+  }
+
+  .aboutTag {
+    font-size: 1.3rem;
+    color: rgb(0, 0, 255);
+  }
+
+  @keyframes popup {
+    from {
+      margin-bottom: 0;
+    }
+
+    to {
+      margin-bottom: 60px;
+    }
+  }
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

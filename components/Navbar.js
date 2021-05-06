@@ -5,7 +5,9 @@ export default function Navbar() {
   return (
     <>
       <nav className={styles.navbar}>
-        <h1 className={styles.titleNav}>beerBot</h1>
+        <Link href="/">
+          <h1 className={styles.titleNav}>beerBot🍻</h1>
+        </Link>
         <div className={styles.linkContainer}>
           <Link href="/">
             <a>Home</a>
@@ -15,9 +17,6 @@ export default function Navbar() {
           </Link>
           <Link href="/docs">
             <a>Docs</a>
-          </Link>
-          <Link href="/api-info">
-            <a>Api</a>
           </Link>
         </div>
       </nav>

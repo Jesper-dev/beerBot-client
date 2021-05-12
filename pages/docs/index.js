@@ -9,6 +9,7 @@ export default function Docs({ beerList }) {
     <>
       <DocsLayout>
         <h1>Welcome to the docs page</h1>
+        <p>Here you can see information about the api and the discord bot</p>
       </DocsLayout>
     </>
   );

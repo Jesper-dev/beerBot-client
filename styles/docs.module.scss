@@ -30,6 +30,13 @@
   display: flex;
 }
 
+.pageContainer {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 100%;
+}
+
 .listContainer {
   display: flex;
   flex-direction: column;

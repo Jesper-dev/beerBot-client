@@ -11,6 +11,9 @@ export default function LeftTabBar() {
           <Link href="/docs">
             <li>Welcome</li>
           </Link>
+          <Link href="/docs/getstarted">
+            <li>Get Started</li>
+          </Link>
           <Link href="/docs/list">
             <li>Get a list</li>
           </Link>

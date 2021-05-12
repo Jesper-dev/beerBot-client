@@ -10,7 +10,7 @@ export default function DocsLayout({ children }) {
       </Head>
       <div className={styles.docsContainer}>
         <LeftTabBar />
-        {children}
+        <div className={styles.pageContainer}>{children}</div>
       </div>
     </>
   );

@@ -6,7 +6,7 @@ export default function list() {
   return (
     <DocsLayout>
       <div className={styles.listContainer}>
-        <h1>List</h1>
+        <h3>To get a list of beers you can simply use: </h3>
         <ListExample />
       </div>
     </DocsLayout>

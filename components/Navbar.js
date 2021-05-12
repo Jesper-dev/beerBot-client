@@ -1,13 +1,18 @@
-import styles from "./components.module.scss";
+import styles from "../styles/components.module.scss";
 import Link from "next/link";
+import { useState } from "react";
 
 export default function Navbar() {
+  const [showCheers, setShowCheers] = useState(false);
+  const onClick = () => {
+    setShowCheers(!showCheers);
+  };
   return (
     <>
       <nav className={styles.navbar}>
-        <Link href="/">
-          <h1 className={styles.titleNav}>beerBot🍻</h1>
-        </Link>
+        <h1 className={styles.titleNav} onClick={onClick}>
+          {showCheers ? "Cheers🍻" : "beerBot🍻"}
+        </h1>
         <div className={styles.linkContainer}>
           <Link href="/">
             <a>Home</a>

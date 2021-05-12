@@ -1,0 +1,68 @@
+.leftTabContainer {
+  height: 80vh;
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  border-right: 2px solid black;
+  align-items: center;
+
+  ul {
+    list-style: none;
+    cursor: pointer;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    text-align: center;
+
+    li {
+      padding: 16px;
+    }
+
+    .active {
+      font-size: 1.1rem;
+      font-weight: 600;
+    }
+  }
+}
+
+.docsContainer {
+  height: 100vh;
+  display: flex;
+}
+
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+
+  .listExampleContainer {
+    width: 20%;
+    height: 10%;
+    border: 1px solid black;
+
+    .tabBar {
+      display: flex;
+      justify-content: space-around;
+      border-bottom: 1px solid black;
+
+      span {
+        cursor: pointer;
+        padding: 8px;
+      }
+    }
+
+    .output {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 50%;
+
+      code {
+        background-color: lightgrey;
+        padding: 4px;
+      }
+    }
+  }
+}
